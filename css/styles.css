@@ -123,11 +123,12 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.carent {
+.current {
   color: #404bbf;
+  position: relative;
 }
 
-.carent::after {
+.current::after {
   position: absolute;
   box-sizing: border-box;
   border-radius: 2px;

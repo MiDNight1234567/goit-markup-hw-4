@@ -119,22 +119,13 @@ p {
   padding: 24px 0;
   display: inline-block;
   position: relative;
-  color: #404bbf;
+  color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .header-link .carent {
-  position: relative;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-  display: inline-block;
-  position: relative;
+.carent {
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
 
 .carent::after {
   position: absolute;
@@ -154,15 +145,13 @@ p {
 
 .header-link:hover,
 .contacts-link:hover,
-.footer-link:hover,
-.carent:hover {
+.footer-link:hover {
   color: #404bbf;
 }
 
 .header-link:focus,
 .footer-link:focus,
-.contacts-link:focus,
-.carent:focus {
+.contacts-link:focus {
   color: #404bbf;
 }
 

@@ -119,11 +119,11 @@ p {
   padding: 24px 0;
   display: inline-block;
   position: relative;
-  color: #2e2f42;
+  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link .carent {
+/* .header-link .carent {
   position: relative;
   font-size: 16px;
   font-weight: 500;
@@ -134,7 +134,7 @@ p {
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .carent::after {
   position: absolute;
